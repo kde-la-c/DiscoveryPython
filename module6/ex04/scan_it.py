@@ -5,4 +5,8 @@ import sys
 if not len(sys.argv) == 3:
 	print("none")
 else:
-	print(len(re.findall(sys.argv[1], sys.argv[2])))
+	nbrep = len(re.findall(sys.argv[1], sys.argv[2]))
+	if nbrep:
+		print(nbrep)
+	else:
+		print("none")
