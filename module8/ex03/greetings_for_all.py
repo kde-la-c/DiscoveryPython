@@ -3,7 +3,7 @@
 def greetings(name = "noble stranger"):
 	try:
 		if all(x.isalpha() or x.isspace() for x in name):
-			print(name)
+			print("Hello,", name)
 	except:
 		print("Error! It was not a name.")
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def add_one(i):
-	i += i
+	i += 1
 
 i = 5
 print(i)
